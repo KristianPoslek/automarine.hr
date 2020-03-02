@@ -20,9 +20,9 @@ $(function() {
     $(window).on('scroll',function(event) {    
         var scroll = $(window).scrollTop();
         if (scroll < 10) {
-            $(".navgition").removeClass("sticky");
+            $(".navigation").removeClass("sticky");
         }else{
-            $(".navgition").addClass("sticky");
+            $(".navigation").addClass("sticky");
         }
     });
     

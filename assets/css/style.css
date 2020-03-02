@@ -134,21 +134,21 @@ p {
     2.HEADER css 
 ===========================*/
 /*===== NAVBAR ONE =====*/
-.navgition {
+.navigation {
   padding: 10px 0;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s; }
-  .navgition.navgition-transparent {
+  .navigation.navigation-transparent {
     background-color: transparent;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 99; }
-  .navgition.sticky {
+  .navigation.sticky {
     position: fixed;
     background-color: #fff;
     -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
@@ -159,13 +159,13 @@ p {
     -ms-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s; }
-  .navgition .navbar {
+  .navigation .navbar {
     position: relative;
     padding: 0; }
-    .navgition .navbar .navbar-brand img {
+    .navigation .navbar .navbar-brand img {
       width: 200px;
     }
-    .navgition .navbar .navbar-toggler .toggler-icon {
+    .navigation .navbar .navbar-toggler .toggler-icon {
       width: 30px;
       height: 2px;
       background-color: #121212;
@@ -177,16 +177,16 @@ p {
       -ms-transition: all 0.3s ease-out 0s;
       -o-transition: all 0.3s ease-out 0s;
       transition: all 0.3s ease-out 0s; }
-    .navgition .navbar .navbar-toggler.active .toggler-icon:nth-of-type(1) {
+    .navigation .navbar .navbar-toggler.active .toggler-icon:nth-of-type(1) {
       -webkit-transform: rotate(45deg);
       -moz-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
       -o-transform: rotate(45deg);
       transform: rotate(45deg);
       top: 7px; }
-    .navgition .navbar .navbar-toggler.active .toggler-icon:nth-of-type(2) {
+    .navigation .navbar .navbar-toggler.active .toggler-icon:nth-of-type(2) {
       opacity: 0; }
-    .navgition .navbar .navbar-toggler.active .toggler-icon:nth-of-type(3) {
+    .navigation .navbar .navbar-toggler.active .toggler-icon:nth-of-type(3) {
       -webkit-transform: rotate(135deg);
       -moz-transform: rotate(135deg);
       -ms-transform: rotate(135deg);
@@ -194,7 +194,7 @@ p {
       transform: rotate(135deg);
       top: -7px; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .navgition .navbar .navbar-collapse {
+      .navigation .navbar .navbar-collapse {
         position: absolute;
         top: 116%;
         left: 0;
@@ -206,7 +206,7 @@ p {
         -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16); } }
     @media (max-width: 767px) {
-      .navgition .navbar .navbar-collapse {
+      .navigation .navbar .navbar-collapse {
         position: absolute;
         top: 116%;
         left: 0;
@@ -217,10 +217,10 @@ p {
         -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
         -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16); } }
-    .navgition .navbar .navbar-nav .nav-item {
+    .navigation .navbar .navbar-nav .nav-item {
       margin: 0 16px;
       position: relative; }
-      .navgition .navbar .navbar-nav .nav-item a {
+      .navigation .navbar .navbar-nav .nav-item a {
         font-size: 16px;
         line-height: 24px;
         font-weight: 700;
@@ -234,21 +234,21 @@ p {
         -o-transition: all 0.3s ease-out 0s;
         transition: all 0.3s ease-out 0s; }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
-          .navgition .navbar .navbar-nav .nav-item a {
+          .navigation .navbar .navbar-nav .nav-item a {
             padding: 10px 0;
             display: block; } }
         @media (max-width: 767px) {
-          .navgition .navbar .navbar-nav .nav-item a {
+          .navigation .navbar .navbar-nav .nav-item a {
             padding: 10px 0;
             display: block; } }
-        .navgition .navbar .navbar-nav .nav-item a::before, .navgition .navbar .navbar-nav .nav-item a::after {
+        .navigation .navbar .navbar-nav .nav-item a::before, .navigation .navbar .navbar-nav .nav-item a::after {
           position: absolute;
           content: '';
-          width: 8px;
+          width: 32px;
           height: 4px;
           background-color: #0067f4;
           left: 50%;
-          margin: 0 2px;
+          margin: 0;
           bottom: 14px;
           opacity: 0;
           -webkit-transition: all 0.3s ease-out 0s;
@@ -257,38 +257,38 @@ p {
           -o-transition: all 0.3s ease-out 0s;
           transition: all 0.3s ease-out 0s; }
           @media only screen and (min-width: 768px) and (max-width: 991px) {
-            .navgition .navbar .navbar-nav .nav-item a::before, .navgition .navbar .navbar-nav .nav-item a::after {
+            .navigation .navbar .navbar-nav .nav-item a::before, .navigation .navbar .navbar-nav .nav-item a::after {
               display: none; } }
           @media (max-width: 767px) {
-            .navgition .navbar .navbar-nav .nav-item a::before, .navgition .navbar .navbar-nav .nav-item a::after {
+            .navigation .navbar .navbar-nav .nav-item a::before, .navigation .navbar .navbar-nav .nav-item a::after {
               display: none; } }
-        .navgition .navbar .navbar-nav .nav-item a::after {
+        .navigation .navbar .navbar-nav .nav-item a::after {
           left: auto;
           right: 50%; }
-      .navgition .navbar .navbar-nav .nav-item.active > a, .navgition .navbar .navbar-nav .nav-item:hover > a {
+      .navigation .navbar .navbar-nav .nav-item.active > a, .navigation .navbar .navbar-nav .nav-item:hover > a {
         color: #0067f4; }
-        .navgition .navbar .navbar-nav .nav-item.active > a::before, .navgition .navbar .navbar-nav .nav-item.active > a::after, .navgition .navbar .navbar-nav .nav-item:hover > a::before, .navgition .navbar .navbar-nav .nav-item:hover > a::after {
+        .navigation .navbar .navbar-nav .nav-item.active > a::before, .navigation .navbar .navbar-nav .nav-item.active > a::after, .navigation .navbar .navbar-nav .nav-item:hover > a::before, .navigation .navbar .navbar-nav .nav-item:hover > a::after {
           opacity: 1; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .navgition .navbar .navbar-social {
+      .navigation .navbar .navbar-social {
         position: absolute;
         right: 70px;
         top: 7px; } }
     @media (max-width: 767px) {
-      .navgition .navbar .navbar-social {
+      .navigation .navbar .navbar-social {
         position: absolute;
         right: 60px;
         top: 7px; } }
-    .navgition .navbar .navbar-social span {
+    .navigation .navbar .navbar-social span {
       font-size: 16px;
       font-weight: 700;
       color: #6c6c6c;
       line-height: 24px;
       margin-right: 14px; }
-    .navgition .navbar .navbar-social ul li {
+    .navigation .navbar .navbar-social ul li {
       display: inline-block;
       margin-right: 5px; }
-      .navgition .navbar .navbar-social ul li a {
+      .navigation .navbar .navbar-social ul li a {
         font-size: 32px;
         text-transform: uppercase;
         font-weight: 700;
@@ -299,7 +299,7 @@ p {
         -ms-transition: all 0.3s ease-out 0s;
         -o-transition: all 0.3s ease-out 0s;
         transition: all 0.3s ease-out 0s; }
-        .navgition .navbar .navbar-social ul li a:hover {
+        .navigation .navbar .navbar-social ul li a:hover {
           color: #0067f4; }
 
 .header-hero {
@@ -307,10 +307,10 @@ p {
   position: relative; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-hero {
-      height: 480px; } }
+      height: 560px; } }
   @media (max-width: 767px) {
     .header-hero {
-      height: 400px; } }
+      height: 600px; } }
   .header-hero::before {
     position: absolute;
     content: '';
@@ -322,7 +322,7 @@ p {
     background: -o-linear-gradient(rgba(232, 237, 255, 0.9), rgba(239, 254, 255, 0.9) 50%, rgba(254, 255, 244, 0.8) 68%, rgba(255, 255, 255, 0.6));
     background: linear-gradient(rgba(232, 237, 255, 0.9), rgba(239, 254, 255, 0.9) 50%, rgba(254, 255, 244, 0.8) 68%, rgba(255, 255, 255, 0.6)); }
   .header-hero .header-content {
-    padding-top: 195px;
+    padding-top: 135px;
     position: relative;
     z-index: 9; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -336,10 +336,21 @@ p {
       line-height: 55px;
       color: #121212;
       font-weight: 600; }
+      .header-hero .header-content .header-title img {
+        max-width: 70%; }
       @media (max-width: 767px) {
         .header-hero .header-content .header-title {
           font-size: 30px;
-          line-height: 40px; } }
+          line-height: 40px; }
+        .header-hero .header-content .header-title img {
+          max-width: 100%; } }
+    .header-hero .header-content .logos {
+      padding: 12px 0; }
+    .header-hero .header-content .logos svg {
+      margin: 12px; }
+      @media (max-width: 767px) {
+        .header-hero .header-content .logos svg {
+          margin: 4px; } }
     .header-hero .header-content .text {
       font-size: 20px;
       line-height: 32px;
