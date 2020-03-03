@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,600,700,800");
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #121212; }
@@ -37,7 +37,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #121212;
   margin: 0px; }
@@ -350,7 +350,7 @@ p {
           margin: 4px; } }
     .header-hero .header-content .text {
       font-size: 20px;
-      line-height: 32px;
+      line-height: 28px;
       color: #121212;
       margin-top: 16px; }
     .header-hero .header-content h1 {
@@ -358,7 +358,7 @@ p {
     }
       @media (max-width: 767px) {
         .header-hero .header-content .text {
-          font-size: 16px;
+          font-size: 20px;
           line-height: 24px; } }
     .header-hero .header-content .header-btn {
       margin-top: 22px; }
