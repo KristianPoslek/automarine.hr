@@ -48,13 +48,4 @@ $(function() {
             $('.back-to-top').fadeOut(200)
         }
     });
-    
-    $('.back-to-top').on('click', function(event) {
-        event.preventDefault();
-        
-        $('html, body').animate({
-            scrollTop: 0,
-        }, 1500);
-    });
-    
 });
